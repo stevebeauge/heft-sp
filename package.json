@@ -1,0 +1,29 @@
+{
+  "name": "heft-withsp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "build": "heft build --clean",
+    "test": "heft test",
+    "clean": "rimraf lib lib-commonjs *.tsbuildinfo"
+  },
+  "keywords": [],
+  "author": "Steve",
+  "license": "MIT",
+  "devDependencies": {
+    "@rushstack/heft": "^0.62.3",
+    "@rushstack/heft-jest-plugin": "^0.10.1",
+    "@rushstack/heft-lint-plugin": "^0.2.9",
+    "@rushstack/heft-sass-plugin": "^0.12.9",
+    "@rushstack/heft-web-rig": "^0.19.7",
+    "@types/heft-jest": "1.0.5",
+    "@types/node": "20.8.9",
+    "rimraf": "^5.0.5",
+    "tslib": "^2.6.2",
+    "typescript": "~4.7.4"
+  },
+  "dependencies": {
+    "@microsoft/sp-core-library": "1.16.1"
+  }
+}
