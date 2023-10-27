@@ -1,7 +1,2 @@
-import { Guid } from "@microsoft/sp-core-library";
+export * from "./utils";
 
-const uid = (): string => {
-  return Guid.newGuid().toString();
-};
-
-export { uid };
